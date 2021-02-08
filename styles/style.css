@@ -252,33 +252,75 @@ section {
     display: flexbox;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
     background-color: white;
     text-align: center;
     margin: auto;
 }
 
 .video {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    overflow: visible
+    max-height: 400px;
+    overflow: visible;
 }
 
 .video__iframes {
+    min-width: 515px;
+    min-height: 316px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.video__iframe {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+
+.oakley {
+    display: flex;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    justify-content: center;
+    background-color: #f2f2f2;
+}
+
+.khan {
+    margin: auto;
+    max-width: 80%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 
-.video__iframe {
-    padding-left: 10px;
-    max-width: 515px;
-    max-height: 316px;
+.khan__author {}
+
+.khan__title {}
+
+.khan__quote {
     display: flex;
+    max-width: 790px;
 }
+
+.khan__quote-author {}
+
+.khan__quote-author-subline {}
+
+.khan__book-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.khan__book-pic {
+    max-width: 660px;
+    max-height: 608px;
+}
+
+.khan__buy-link {}
 
 .feynman {
     position: relative;
