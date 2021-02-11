@@ -1,8 +1,8 @@
-.resources__link-transition_white {
+.link-transition-white {
     background-color: white;
     transition: background-color 1s linear;
 }
 
-.resources__link-transition_white:hover {
+.link-transition-white:hover {
     background-color: grey;
 }
