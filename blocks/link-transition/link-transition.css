@@ -1,0 +1,8 @@
+.link-transition {
+    background-color: #f2f2f2;
+    transition: background-color 1s linear;
+}
+
+.link-transition:hover {
+    background-color: grey
+}
